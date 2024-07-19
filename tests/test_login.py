@@ -14,6 +14,7 @@ class TestLogin:
         #doing a change
         # dan's changes
         # student's changes
+        # student's change 2
         index_page.navigate_to(TEST_SITE_URL)
         index_page.wait_and_click_register_button()
 
