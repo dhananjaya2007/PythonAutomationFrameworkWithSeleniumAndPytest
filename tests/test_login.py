@@ -11,7 +11,7 @@ class TestLogin:
     # Test Case 1 ( Registering the user)
     def test_register_new_user(self, driver, username_password):
         index_page = IndexPage(driver)
-
+        #doing a change
         index_page.navigate_to(TEST_SITE_URL)
         index_page.wait_and_click_register_button()
 
